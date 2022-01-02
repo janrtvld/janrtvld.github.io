@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/janr-xyz/static/js/main.115f9369.chunk.js",
-    "main.js.map": "/janr-xyz/static/js/main.115f9369.chunk.js.map",
+    "main.js": "/janr-xyz/static/js/main.432e7958.chunk.js",
+    "main.js.map": "/janr-xyz/static/js/main.432e7958.chunk.js.map",
     "runtime-main.js": "/janr-xyz/static/js/runtime-main.2bed3222.js",
     "runtime-main.js.map": "/janr-xyz/static/js/runtime-main.2bed3222.js.map",
     "static/js/2.f912bece.chunk.js": "/janr-xyz/static/js/2.f912bece.chunk.js",
@@ -13,6 +13,6 @@
   "entrypoints": [
     "static/js/runtime-main.2bed3222.js",
     "static/js/2.f912bece.chunk.js",
-    "static/js/main.115f9369.chunk.js"
+    "static/js/main.432e7958.chunk.js"
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/janr-xyz/static/js/main.7880a7b7.chunk.js",
+    "main.js.map": "/janr-xyz/static/js/main.7880a7b7.chunk.js.map",
+    "runtime-main.js": "/janr-xyz/static/js/runtime-main.2bed3222.js",
+    "runtime-main.js.map": "/janr-xyz/static/js/runtime-main.2bed3222.js.map",
+    "static/js/2.f912bece.chunk.js": "/janr-xyz/static/js/2.f912bece.chunk.js",
+    "static/js/2.f912bece.chunk.js.map": "/janr-xyz/static/js/2.f912bece.chunk.js.map",
+    "index.html": "/janr-xyz/index.html",
+    "static/js/2.f912bece.chunk.js.LICENSE.txt": "/janr-xyz/static/js/2.f912bece.chunk.js.LICENSE.txt",
+    "static/media/animoji.a3fb37aa.png": "/janr-xyz/static/media/animoji.a3fb37aa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bed3222.js",
+    "static/js/2.f912bece.chunk.js",
+    "static/js/main.7880a7b7.chunk.js"
+  ]
+}

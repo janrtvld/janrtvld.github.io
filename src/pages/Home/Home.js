@@ -12,7 +12,7 @@ const Home = () => {
             <img alt="animoji" src={animoji}></img>
           </ImageFlex>
           <HomeText>
-            <h1 style={{ margin: 0 }}>Hi, Im Jan! 👋</h1>
+            <h1 style={{ margin: 0 }}>Hi, I'm Jan! 👋</h1>
             <p>
               I'm a software engineering student living in the Netherlands.{" "}
             </p>

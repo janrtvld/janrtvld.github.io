@@ -9,6 +9,7 @@ import Wave from "./components/Wave";
 import { Switch, Route, useLocation } from "react-router-dom";
 
 import { useAnalytics } from "./hooks/useAnalytics";
+import "dotenv/config";
 
 function App() {
   const location = useLocation();

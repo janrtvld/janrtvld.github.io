@@ -6,6 +6,7 @@ import Demo from "../../components/Demo";
 import Website from "../../components/Website";
 
 const Home = () => {
+  console.log(process.env);
   return (
     <div className="home">
       <RoundedBlock>

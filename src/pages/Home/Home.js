@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import animoji from "../../img/animoji.png";
-import { Link } from "react-router-dom";
 import GoodReadsBlock from "./GoodReadsBlock";
+
+import Demo from "../../components/Demo";
+import Website from "../../components/Website";
 
 const Home = () => {
   return (
@@ -9,10 +11,10 @@ const Home = () => {
       <RoundedBlock>
         <HomeFlex>
           <ImageFlex>
-            <img alt="animoji" src={animoji}></img>
+            <img alt="Jan's Animoji" src={animoji}></img>
           </ImageFlex>
           <HomeText>
-            <h1 style={{ margin: 0 }}>Hi, Im Jan! 👋</h1>
+            <h1 style={{ margin: 0 }}>Hi, I'm Jan! 👋</h1>
             <p>
               I'm a software engineering student living in the Netherlands.{" "}
             </p>
@@ -23,22 +25,35 @@ const Home = () => {
         <GridColumn>
           <RoundedCard>
             <p>
-              Currently working as a Software Engineering Intern @ Animo
-              Solutions in Utrecht.
+              Currently working as a Software Engineer @ Animo Solutions in
+              Utrecht.
             </p>
             <CoolButton href="https://animo.id/" target="_blank">
               Animo
             </CoolButton>
           </RoundedCard>
-          <GoodReadsBlock />
+          <RoundedCardProject>
+            <Demo />
+            <p>
+              I've made an interactive demo that explains the concepts of
+              self-sovereign identity.
+            </p>
+            <CoolButton href="https://demo.animo.id/" target="_blank">
+              <div style={{ display: "inline" }}>Try demo</div>
+            </CoolButton>
+          </RoundedCardProject>
         </GridColumn>
         <GridColumn>
+          <GoodReadsBlock />
           <RoundedCard>
-            <p>An overview of my journey so far 👇</p>
-            <Link to="/experience">
-              <CoolButton>My experience</CoolButton>
-            </Link>
+            <Website />
+            <br />
+            <p>I've recently finished development for Animo's new website.</p>
+            <CoolButton href="https://animo.id/" target="_blank">
+              <div style={{ display: "inline" }}>Check it out</div>
+            </CoolButton>
           </RoundedCard>
+
           <RoundedCardBlue>
             <p>Where you can reach me 📇</p>
             <CoolButton
@@ -91,6 +106,8 @@ const HomeGrid = styled.div`
   width: auto;
   @media (max-width: 400px) {
     display: block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 `;
 
@@ -134,6 +151,24 @@ const RoundedCardBlue = styled.div`
   margin-bottom: 1rem;
 `;
 
+const RoundedCardProject = styled.div`
+  text-decoration: none;
+  box-sizing: border-box;
+  width: auto;
+  min-width: 0em;
+  padding: 20px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: #363636;
+  box-shadow: rgb(0 0 0 / 8%) 0px 12px 30px -10px;
+  color: white;
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+`;
+
 const RoundedBlock = styled.div`
   background: white;
   box-sizing: border-box;
@@ -163,6 +198,11 @@ const RoundedBlock = styled.div`
     min-height: 100%;
     max-height: 100%;
     object-fit: cover;
+  }
+  @media (max-width: 400px) {
+    width: 400px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 `;
 

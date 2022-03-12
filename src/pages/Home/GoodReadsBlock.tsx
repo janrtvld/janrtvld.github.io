@@ -7,9 +7,15 @@ const GoodReadsBlock = () => {
       <div>
         📚 I am currently reading:{" "}
         <Book
-          author="Sahil Lavingia"
-          title="The Minimalist Entrepreneur: How Great Founders Do More with Less"
-          link="https://www.goodreads.com/review/show/4431561017?utm_medium=cover&utm_source=email_signature"
+          author="Eric Ries"
+          title="The Leader's Guide"
+          link="https://www.goodreads.com/review/show/4601026006?utm_medium=cover&utm_source=email_signature"
+        />
+        . I have recently finished:{" "}
+        <Book
+          author="Camila Russo"
+          title="The Infinite Machine"
+          link="https://www.goodreads.com/review/show/4485705357?utm_medium=cover&utm_source=email_signature"
         />
         .
       </div>

@@ -16,9 +16,9 @@ h1,h2,h3 {
 html {
     background: linear-gradient(
 319deg
-, rgb(51 142 255 / 8%) 10%, rgb(171 171 171 / 0%) 50%), linear-gradient(
+, rgb(51 142 255 / 8%) 10%, rgb(171 171 171 / 15%) 50%), linear-gradient(
 20deg
-, rgb(243 255 0 / 13%) 5%, rgb(255 212 0 / 0%) 40%);
+, rgb(51 142 255 / 13%) 5%, rgb(51 142 255 / 0%) 40%);
     box-sizing: border-box;
     width: 100%;
     padding-top: 3rem;
